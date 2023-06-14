@@ -1,0 +1,279 @@
+Results of training DropGNN + Contrastive Learning model on IMDB-Multi
+Random Seed = 0
+Batch Size = 32
+Epochs = 100
+Size of representation = 16
+Size of hidden layer = 64
+p1 = 0.1
+p2 = 0.2
+dropout = 0.5
+
+Running Split 0
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8516927, Val Loss: 1.0220096, Time: 1.504766
+Epoch: 010, LR: 0.001000, Train Loss: 0.7176018, Val Loss: 0.9342155, Time: 1.523161
+Epoch: 020, LR: 0.001000, Train Loss: 0.6961899, Val Loss: 0.9312773, Time: 1.456449
+Epoch: 030, LR: 0.001000, Train Loss: 0.7388766, Val Loss: 0.9270426, Time: 1.490390
+Epoch: 040, LR: 0.001000, Train Loss: 0.7304915, Val Loss: 0.9297729, Time: 1.499190
+Epoch: 050, LR: 0.000500, Train Loss: 0.7004330, Val Loss: 0.9276716, Time: 1.487565
+Epoch: 060, LR: 0.000500, Train Loss: 0.7128414, Val Loss: 0.9277818, Time: 1.422486
+Epoch: 070, LR: 0.000500, Train Loss: 0.7548429, Val Loss: 0.9268764, Time: 1.515224
+Epoch: 080, LR: 0.000500, Train Loss: 0.7491760, Val Loss: 0.9295364, Time: 1.448396
+Epoch: 090, LR: 0.000500, Train Loss: 0.7024541, Val Loss: 0.9300131, Time: 1.444923
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 6.0981954, Val Loss: 2.5190493, Time: 0.493191
+Epoch: 010, LR: 0.000500, Train Loss: 1.7316270, Val Loss: 1.2777872, Time: 0.483287
+Epoch: 020, LR: 0.000500, Train Loss: 1.5329246, Val Loss: 1.2939963, Time: 0.614008
+Epoch: 030, LR: 0.000500, Train Loss: 1.3909368, Val Loss: 1.1363938, Time: 0.535910
+Epoch: 040, LR: 0.000500, Train Loss: 1.2530283, Val Loss: 1.2272444, Time: 0.476836
+Epoch: 050, LR: 0.000250, Train Loss: 1.1745534, Val Loss: 1.1070112, Time: 0.489100
+Epoch: 060, LR: 0.000250, Train Loss: 1.1757387, Val Loss: 1.0815607, Time: 0.506067
+Epoch: 070, LR: 0.000250, Train Loss: 1.1012492, Val Loss: 1.0570822, Time: 0.502507
+Epoch: 080, LR: 0.000250, Train Loss: 1.1039112, Val Loss: 1.0786814, Time: 0.495953
+Epoch: 090, LR: 0.000250, Train Loss: 1.0549465, Val Loss: 1.0386826, Time: 0.484562
+
+Final Prediction Accuracy: 0.4066666666666667
+
+Running Split 1
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8618503, Val Loss: 0.8211653, Time: 1.434943
+Epoch: 010, LR: 0.001000, Train Loss: 0.7551280, Val Loss: 0.7587879, Time: 0.869375
+Epoch: 020, LR: 0.001000, Train Loss: 0.7656870, Val Loss: 0.7235480, Time: 0.878350
+Epoch: 030, LR: 0.001000, Train Loss: 0.7336041, Val Loss: 0.7182700, Time: 0.991539
+Epoch: 040, LR: 0.001000, Train Loss: 0.7465850, Val Loss: 0.7196239, Time: 1.438349
+Epoch: 050, LR: 0.000500, Train Loss: 0.7658620, Val Loss: 0.7102160, Time: 1.515508
+Epoch: 060, LR: 0.000500, Train Loss: 0.7063324, Val Loss: 0.7140128, Time: 1.407962
+Epoch: 070, LR: 0.000500, Train Loss: 0.7361313, Val Loss: 0.7082629, Time: 1.465170
+Epoch: 080, LR: 0.000500, Train Loss: 0.7587640, Val Loss: 0.7113913, Time: 1.487375
+Epoch: 090, LR: 0.000500, Train Loss: 0.7679131, Val Loss: 0.7098728, Time: 1.478700
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.5714558, Val Loss: 3.6038411, Time: 0.497573
+Epoch: 010, LR: 0.000500, Train Loss: 1.7892623, Val Loss: 1.5120738, Time: 0.482231
+Epoch: 020, LR: 0.000500, Train Loss: 1.4247492, Val Loss: 1.2975119, Time: 0.626402
+Epoch: 030, LR: 0.000500, Train Loss: 1.3071705, Val Loss: 1.3361221, Time: 0.484479
+Epoch: 040, LR: 0.000500, Train Loss: 1.1951827, Val Loss: 1.2372981, Time: 0.485355
+Epoch: 050, LR: 0.000250, Train Loss: 1.1334734, Val Loss: 1.1694795, Time: 0.513052
+Epoch: 060, LR: 0.000250, Train Loss: 1.1308045, Val Loss: 1.0903156, Time: 0.482828
+Epoch: 070, LR: 0.000250, Train Loss: 1.0643524, Val Loss: 1.1370126, Time: 0.480152
+Epoch: 080, LR: 0.000250, Train Loss: 1.1086400, Val Loss: 1.0729531, Time: 0.480841
+Epoch: 090, LR: 0.000250, Train Loss: 1.0190536, Val Loss: 1.1004572, Time: 0.488039
+
+Final Prediction Accuracy: 0.47333333333333333
+
+Running Split 2
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8240295, Val Loss: 0.7612394, Time: 1.539960
+Epoch: 010, LR: 0.001000, Train Loss: 0.8124922, Val Loss: 0.7162272, Time: 1.390958
+Epoch: 020, LR: 0.001000, Train Loss: 0.7700752, Val Loss: 0.6980082, Time: 1.420438
+Epoch: 030, LR: 0.001000, Train Loss: 0.7127829, Val Loss: 0.6839205, Time: 1.703593
+Epoch: 040, LR: 0.001000, Train Loss: 0.7312178, Val Loss: 0.6945121, Time: 1.467167
+Epoch: 050, LR: 0.000500, Train Loss: 0.7638566, Val Loss: 0.6954799, Time: 1.460919
+Epoch: 060, LR: 0.000500, Train Loss: 0.7313503, Val Loss: 0.6906635, Time: 1.473827
+Epoch: 070, LR: 0.000500, Train Loss: 0.7558356, Val Loss: 0.6884475, Time: 1.436114
+Epoch: 080, LR: 0.000500, Train Loss: 0.7497590, Val Loss: 0.6890560, Time: 1.450179
+Epoch: 090, LR: 0.000500, Train Loss: 0.7330538, Val Loss: 0.6865760, Time: 1.461903
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.5424101, Val Loss: 5.0893884, Time: 0.510945
+Epoch: 010, LR: 0.000500, Train Loss: 1.8238747, Val Loss: 2.1239812, Time: 0.492294
+Epoch: 020, LR: 0.000500, Train Loss: 1.5616885, Val Loss: 2.0753292, Time: 0.608126
+Epoch: 030, LR: 0.000500, Train Loss: 1.3665434, Val Loss: 1.1733918, Time: 0.487999
+Epoch: 040, LR: 0.000500, Train Loss: 1.2294702, Val Loss: 1.3346851, Time: 0.476019
+Epoch: 050, LR: 0.000250, Train Loss: 1.1292561, Val Loss: 1.0163794, Time: 0.482322
+Epoch: 060, LR: 0.000250, Train Loss: 1.1114198, Val Loss: 1.0362870, Time: 0.483634
+Epoch: 070, LR: 0.000250, Train Loss: 1.0993210, Val Loss: 1.0250944, Time: 0.484315
+Epoch: 080, LR: 0.000250, Train Loss: 1.0743034, Val Loss: 1.0324525, Time: 0.479860
+Epoch: 090, LR: 0.000250, Train Loss: 1.0939749, Val Loss: 1.1040652, Time: 0.598090
+
+Final Prediction Accuracy: 0.5333333333333333
+
+Running Split 3
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8209324, Val Loss: 0.8581458, Time: 1.493537
+Epoch: 010, LR: 0.001000, Train Loss: 0.7588117, Val Loss: 0.8137957, Time: 1.394917
+Epoch: 020, LR: 0.001000, Train Loss: 0.7493105, Val Loss: 0.8048134, Time: 1.378264
+Epoch: 030, LR: 0.001000, Train Loss: 0.7102588, Val Loss: 0.8002970, Time: 1.430084
+Epoch: 040, LR: 0.001000, Train Loss: 0.6982292, Val Loss: 0.7964768, Time: 1.462344
+Epoch: 050, LR: 0.000500, Train Loss: 0.7470046, Val Loss: 0.7947356, Time: 1.455331
+Epoch: 060, LR: 0.000500, Train Loss: 0.7106180, Val Loss: 0.7947581, Time: 1.420724
+Epoch: 070, LR: 0.000500, Train Loss: 0.7209197, Val Loss: 0.7922104, Time: 1.437946
+Epoch: 080, LR: 0.000500, Train Loss: 0.7377416, Val Loss: 0.7962269, Time: 1.458182
+Epoch: 090, LR: 0.000500, Train Loss: 0.7559371, Val Loss: 0.7976313, Time: 1.395906
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.9375109, Val Loss: 4.1899368, Time: 0.490816
+Epoch: 010, LR: 0.000500, Train Loss: 1.6341532, Val Loss: 2.8239133, Time: 0.478636
+Epoch: 020, LR: 0.000500, Train Loss: 1.4555971, Val Loss: 2.7304164, Time: 0.472963
+Epoch: 030, LR: 0.000500, Train Loss: 1.3529333, Val Loss: 2.0515595, Time: 0.473654
+Epoch: 040, LR: 0.000500, Train Loss: 1.2352623, Val Loss: 1.6191038, Time: 0.476096
+Epoch: 050, LR: 0.000250, Train Loss: 1.1514863, Val Loss: 1.7762223, Time: 0.475576
+Epoch: 060, LR: 0.000250, Train Loss: 1.1170759, Val Loss: 1.3745258, Time: 0.482761
+Epoch: 070, LR: 0.000250, Train Loss: 1.1087819, Val Loss: 1.4402826, Time: 0.482530
+Epoch: 080, LR: 0.000250, Train Loss: 1.0454132, Val Loss: 1.1548047, Time: 0.481256
+Epoch: 090, LR: 0.000250, Train Loss: 1.0436539, Val Loss: 1.3486881, Time: 0.479304
+
+Final Prediction Accuracy: 0.44666666666666666
+
+Running Split 4
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8046568, Val Loss: 0.8906125, Time: 1.453219
+Epoch: 010, LR: 0.001000, Train Loss: 0.7622861, Val Loss: 0.8503194, Time: 1.410001
+Epoch: 020, LR: 0.001000, Train Loss: 0.6733190, Val Loss: 0.8392983, Time: 1.416307
+Epoch: 030, LR: 0.001000, Train Loss: 0.7412284, Val Loss: 0.8362168, Time: 1.451138
+Epoch: 040, LR: 0.001000, Train Loss: 0.7235457, Val Loss: 0.8411087, Time: 1.537140
+Epoch: 050, LR: 0.000500, Train Loss: 0.7240090, Val Loss: 0.8366910, Time: 1.732890
+Epoch: 060, LR: 0.000500, Train Loss: 0.7354195, Val Loss: 0.8336730, Time: 1.424653
+Epoch: 070, LR: 0.000500, Train Loss: 0.8042487, Val Loss: 0.8366924, Time: 1.394277
+Epoch: 080, LR: 0.000500, Train Loss: 0.7126933, Val Loss: 0.8351985, Time: 1.456226
+Epoch: 090, LR: 0.000500, Train Loss: 0.7185562, Val Loss: 0.8330396, Time: 1.474873
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.4439562, Val Loss: 3.6416358, Time: 0.560070
+Epoch: 010, LR: 0.000500, Train Loss: 1.7960813, Val Loss: 1.4366892, Time: 0.493342
+Epoch: 020, LR: 0.000500, Train Loss: 1.4452968, Val Loss: 1.3967404, Time: 0.485430
+Epoch: 030, LR: 0.000500, Train Loss: 1.3525715, Val Loss: 1.1188027, Time: 0.486752
+Epoch: 040, LR: 0.000500, Train Loss: 1.2217340, Val Loss: 1.2162709, Time: 0.505911
+Epoch: 050, LR: 0.000250, Train Loss: 1.1521142, Val Loss: 1.1418914, Time: 0.492802
+Epoch: 060, LR: 0.000250, Train Loss: 1.1448525, Val Loss: 1.0148370, Time: 0.526661
+Epoch: 070, LR: 0.000250, Train Loss: 1.0717741, Val Loss: 1.0999534, Time: 0.488104
+Epoch: 080, LR: 0.000250, Train Loss: 1.0682999, Val Loss: 1.0423398, Time: 0.504081
+Epoch: 090, LR: 0.000250, Train Loss: 1.0523413, Val Loss: 1.0168620, Time: 0.495064
+
+Final Prediction Accuracy: 0.5
+
+Running Split 5
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8521298, Val Loss: 0.8010165, Time: 1.659227
+Epoch: 010, LR: 0.001000, Train Loss: 0.7766806, Val Loss: 0.7592096, Time: 1.399383
+Epoch: 020, LR: 0.001000, Train Loss: 0.7502336, Val Loss: 0.7226381, Time: 1.459080
+Epoch: 030, LR: 0.001000, Train Loss: 0.7363403, Val Loss: 0.7169837, Time: 1.441200
+Epoch: 040, LR: 0.001000, Train Loss: 0.7152646, Val Loss: 0.7125240, Time: 1.489309
+Epoch: 050, LR: 0.000500, Train Loss: 0.6995544, Val Loss: 0.7120611, Time: 1.444749
+Epoch: 060, LR: 0.000500, Train Loss: 0.7128762, Val Loss: 0.7138736, Time: 1.424351
+Epoch: 070, LR: 0.000500, Train Loss: 0.7480378, Val Loss: 0.7131231, Time: 1.517217
+Epoch: 080, LR: 0.000500, Train Loss: 0.7014340, Val Loss: 0.7096462, Time: 1.487133
+Epoch: 090, LR: 0.000500, Train Loss: 0.7615123, Val Loss: 0.7114867, Time: 0.881131
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.1517404, Val Loss: 2.9245217, Time: 0.493551
+Epoch: 010, LR: 0.000500, Train Loss: 1.7877686, Val Loss: 1.5756161, Time: 0.488493
+Epoch: 020, LR: 0.000500, Train Loss: 1.4645406, Val Loss: 1.4668432, Time: 0.488826
+Epoch: 030, LR: 0.000500, Train Loss: 1.3627371, Val Loss: 1.2430190, Time: 0.487724
+Epoch: 040, LR: 0.000500, Train Loss: 1.2947540, Val Loss: 1.3583159, Time: 0.481125
+Epoch: 050, LR: 0.000250, Train Loss: 1.1504528, Val Loss: 1.1767612, Time: 0.481401
+Epoch: 060, LR: 0.000250, Train Loss: 1.0961901, Val Loss: 1.0931186, Time: 0.487422
+Epoch: 070, LR: 0.000250, Train Loss: 1.1449281, Val Loss: 1.2107523, Time: 0.503482
+Epoch: 080, LR: 0.000250, Train Loss: 1.0633008, Val Loss: 1.1579992, Time: 0.613254
+Epoch: 090, LR: 0.000250, Train Loss: 1.0719144, Val Loss: 1.0576061, Time: 0.514831
+
+Final Prediction Accuracy: 0.48
+
+Running Split 6
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8342691, Val Loss: 0.9210596, Time: 1.561477
+Epoch: 010, LR: 0.001000, Train Loss: 0.7263711, Val Loss: 0.8100060, Time: 1.563586
+Epoch: 020, LR: 0.001000, Train Loss: 0.7469578, Val Loss: 0.8068019, Time: 1.437815
+Epoch: 030, LR: 0.001000, Train Loss: 0.6962021, Val Loss: 0.7978517, Time: 1.516465
+Epoch: 040, LR: 0.001000, Train Loss: 0.7093310, Val Loss: 0.7917080, Time: 1.459037
+Epoch: 050, LR: 0.000500, Train Loss: 0.7358691, Val Loss: 0.7933480, Time: 1.480570
+Epoch: 060, LR: 0.000500, Train Loss: 0.7278636, Val Loss: 0.7945291, Time: 1.434813
+Epoch: 070, LR: 0.000500, Train Loss: 0.7375208, Val Loss: 0.7948102, Time: 1.512599
+Epoch: 080, LR: 0.000500, Train Loss: 0.7725902, Val Loss: 0.7913044, Time: 1.663378
+Epoch: 090, LR: 0.000500, Train Loss: 0.7322265, Val Loss: 0.7930276, Time: 1.566442
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.1314543, Val Loss: 3.2572272, Time: 0.491193
+Epoch: 010, LR: 0.000500, Train Loss: 1.7108342, Val Loss: 1.5986587, Time: 0.561332
+Epoch: 020, LR: 0.000500, Train Loss: 1.4436603, Val Loss: 1.3458201, Time: 0.503853
+Epoch: 030, LR: 0.000500, Train Loss: 1.2788575, Val Loss: 1.1623788, Time: 0.495722
+Epoch: 040, LR: 0.000500, Train Loss: 1.2348751, Val Loss: 1.1159835, Time: 0.500008
+Epoch: 050, LR: 0.000250, Train Loss: 1.1645495, Val Loss: 1.0582159, Time: 0.507598
+Epoch: 060, LR: 0.000250, Train Loss: 1.0821804, Val Loss: 1.0484144, Time: 0.507423
+Epoch: 070, LR: 0.000250, Train Loss: 1.0839636, Val Loss: 1.1105623, Time: 0.507852
+Epoch: 080, LR: 0.000250, Train Loss: 1.0784745, Val Loss: 1.0907286, Time: 0.479950
+Epoch: 090, LR: 0.000250, Train Loss: 1.1162984, Val Loss: 1.0718525, Time: 0.487679
+
+Final Prediction Accuracy: 0.49333333333333335
+
+Running Split 7
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8061177, Val Loss: 0.8588324, Time: 1.452654
+Epoch: 010, LR: 0.001000, Train Loss: 0.7417407, Val Loss: 0.7820521, Time: 1.486101
+Epoch: 020, LR: 0.001000, Train Loss: 0.7177296, Val Loss: 0.7783940, Time: 1.472317
+Epoch: 030, LR: 0.001000, Train Loss: 0.7504528, Val Loss: 0.7711517, Time: 1.608448
+Epoch: 040, LR: 0.001000, Train Loss: 0.7109258, Val Loss: 0.7671415, Time: 1.466864
+Epoch: 050, LR: 0.000500, Train Loss: 0.7230987, Val Loss: 0.7706127, Time: 1.451669
+Epoch: 060, LR: 0.000500, Train Loss: 0.7001432, Val Loss: 0.7660002, Time: 1.705904
+Epoch: 070, LR: 0.000500, Train Loss: 0.6995529, Val Loss: 0.7665792, Time: 1.521051
+Epoch: 080, LR: 0.000500, Train Loss: 0.7649065, Val Loss: 0.7620582, Time: 1.448701
+Epoch: 090, LR: 0.000500, Train Loss: 0.7813463, Val Loss: 0.7642785, Time: 1.439550
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.0375861, Val Loss: 2.2407993, Time: 0.555264
+Epoch: 010, LR: 0.000500, Train Loss: 1.6558252, Val Loss: 1.2889419, Time: 0.476217
+Epoch: 020, LR: 0.000500, Train Loss: 1.4829539, Val Loss: 1.3787636, Time: 0.501598
+Epoch: 030, LR: 0.000500, Train Loss: 1.3014753, Val Loss: 1.2707845, Time: 0.486182
+Epoch: 040, LR: 0.000500, Train Loss: 1.2349728, Val Loss: 1.1977676, Time: 0.495807
+Epoch: 050, LR: 0.000250, Train Loss: 1.0783256, Val Loss: 1.0389066, Time: 0.480877
+Epoch: 060, LR: 0.000250, Train Loss: 1.0670565, Val Loss: 1.0469675, Time: 0.504447
+Epoch: 070, LR: 0.000250, Train Loss: 1.0949233, Val Loss: 1.0688400, Time: 0.508993
+Epoch: 080, LR: 0.000250, Train Loss: 1.0345202, Val Loss: 1.0362583, Time: 0.503548
+Epoch: 090, LR: 0.000250, Train Loss: 1.0318348, Val Loss: 1.0305600, Time: 0.487842
+
+Final Prediction Accuracy: 0.4533333333333333
+
+Running Split 8
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8303022, Val Loss: 0.6851616, Time: 1.484934
+Epoch: 010, LR: 0.001000, Train Loss: 0.7313079, Val Loss: 0.6220481, Time: 1.562144
+Epoch: 020, LR: 0.001000, Train Loss: 0.7445608, Val Loss: 0.6130723, Time: 1.447855
+Epoch: 030, LR: 0.001000, Train Loss: 0.7857256, Val Loss: 0.6107803, Time: 1.408446
+Epoch: 040, LR: 0.001000, Train Loss: 0.7527416, Val Loss: 0.6020497, Time: 1.457500
+Epoch: 050, LR: 0.000500, Train Loss: 0.7575190, Val Loss: 0.6069264, Time: 1.439710
+Epoch: 060, LR: 0.000500, Train Loss: 0.7452322, Val Loss: 0.5989379, Time: 1.490408
+Epoch: 070, LR: 0.000500, Train Loss: 0.7614897, Val Loss: 0.5963434, Time: 1.513174
+Epoch: 080, LR: 0.000500, Train Loss: 0.7839827, Val Loss: 0.6003588, Time: 1.500105
+Epoch: 090, LR: 0.000500, Train Loss: 0.7477045, Val Loss: 0.5986407, Time: 1.470302
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 4.6899437, Val Loss: 17.1960241, Time: 0.564590
+Epoch: 010, LR: 0.000500, Train Loss: 1.7389069, Val Loss: 5.0399042, Time: 0.503157
+Epoch: 020, LR: 0.000500, Train Loss: 1.4944703, Val Loss: 2.2058026, Time: 0.514524
+Epoch: 030, LR: 0.000500, Train Loss: 1.3469723, Val Loss: 2.7692860, Time: 0.490752
+Epoch: 040, LR: 0.000500, Train Loss: 1.2756178, Val Loss: 3.3393599, Time: 0.507102
+Epoch: 050, LR: 0.000250, Train Loss: 1.1609528, Val Loss: 3.0322026, Time: 0.499546
+Epoch: 060, LR: 0.000250, Train Loss: 1.1461516, Val Loss: 5.3677991, Time: 0.477391
+Epoch: 070, LR: 0.000250, Train Loss: 1.0889941, Val Loss: 1.6765728, Time: 0.483432
+Epoch: 080, LR: 0.000250, Train Loss: 1.0699550, Val Loss: 1.8594172, Time: 0.486497
+Epoch: 090, LR: 0.000250, Train Loss: 1.0871600, Val Loss: 2.3321473, Time: 0.492400
+
+Final Prediction Accuracy: 0.40268456375838924
+
+Running Split 9
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.8281127, Val Loss: 0.7741972, Time: 1.711579
+Epoch: 010, LR: 0.001000, Train Loss: 0.7314454, Val Loss: 0.7060843, Time: 1.421336
+Epoch: 020, LR: 0.001000, Train Loss: 0.6992294, Val Loss: 0.6987880, Time: 1.534797
+Epoch: 030, LR: 0.001000, Train Loss: 0.7761878, Val Loss: 0.6999398, Time: 1.552006
+Epoch: 040, LR: 0.001000, Train Loss: 0.7344553, Val Loss: 0.6937445, Time: 1.438837
+Epoch: 050, LR: 0.000500, Train Loss: 0.7263060, Val Loss: 0.6869210, Time: 1.409423
+Epoch: 060, LR: 0.000500, Train Loss: 0.7926921, Val Loss: 0.6839669, Time: 1.555288
+Epoch: 070, LR: 0.000500, Train Loss: 0.7174751, Val Loss: 0.6887956, Time: 1.487142
+Epoch: 080, LR: 0.000500, Train Loss: 0.7208485, Val Loss: 0.6832994, Time: 1.479109
+Epoch: 090, LR: 0.000500, Train Loss: 0.7644253, Val Loss: 0.6905379, Time: 1.415560
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000500, Train Loss: 5.1084681, Val Loss: 7.1146407, Time: 0.487374
+Epoch: 010, LR: 0.000500, Train Loss: 1.8403321, Val Loss: 2.9721860, Time: 0.491381
+Epoch: 020, LR: 0.000500, Train Loss: 1.4545389, Val Loss: 2.1877108, Time: 0.482708
+Epoch: 030, LR: 0.000500, Train Loss: 1.3975294, Val Loss: 1.4800884, Time: 0.488405
+Epoch: 040, LR: 0.000500, Train Loss: 1.2732373, Val Loss: 3.0928238, Time: 0.510298
+Epoch: 050, LR: 0.000250, Train Loss: 1.2099766, Val Loss: 2.1629017, Time: 0.484951
+Epoch: 060, LR: 0.000250, Train Loss: 1.1332469, Val Loss: 2.0939886, Time: 0.482881
+Epoch: 070, LR: 0.000250, Train Loss: 1.1383303, Val Loss: 2.1226389, Time: 0.477183
+Epoch: 080, LR: 0.000250, Train Loss: 1.1036547, Val Loss: 1.2785551, Time: 0.485158
+Epoch: 090, LR: 0.000250, Train Loss: 1.1123766, Val Loss: 1.3615653, Time: 0.485711
+
+Final Prediction Accuracy: 0.5369127516778524
