@@ -1,3 +1,13 @@
+Results of training DropGNN + Contrastive Learning model on IMDB-Binary
+Random Seed = 0
+Batch Size = 32
+Epochs = 100
+Size of representation = 32
+Size of hidden layer = 64
+p1 = 0.1
+p2 = 0.2
+dropout = 0.5
+
 Running Split 0
 STARTING CONTRASTIVE LEARNING
 Epoch: 000, LR: 0.001000, Train Loss: 0.2137590, Val Loss: 0.2022920, Time: 1.439396
