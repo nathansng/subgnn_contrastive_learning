@@ -1,0 +1,36 @@
+num_reps: 32
+p1: 0.7
+p2: 0.25
+p: 0.5
+
+Running Split 0
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.3187732, Val Loss: 1.1575141, Time: 1.590012
+Epoch: 010, LR: 0.001000, Train Loss: 0.2091467, Val Loss: 0.5250300, Time: 1.413425
+Epoch: 020, LR: 0.001000, Train Loss: 0.1632694, Val Loss: 0.2684898, Time: 1.521524
+Epoch: 030, LR: 0.001000, Train Loss: 0.1416332, Val Loss: 0.2383398, Time: 1.432880
+Epoch: 040, LR: 0.001000, Train Loss: 0.1756862, Val Loss: 0.2875256, Time: 1.414417
+Epoch: 050, LR: 0.000500, Train Loss: 0.1732794, Val Loss: 0.1923473, Time: 1.505098
+Epoch: 060, LR: 0.000500, Train Loss: 0.1654047, Val Loss: 0.1945576, Time: 1.476146
+Epoch: 070, LR: 0.000500, Train Loss: 0.1579268, Val Loss: 0.1871992, Time: 1.451859
+Epoch: 080, LR: 0.000500, Train Loss: 0.1409967, Val Loss: 0.2096308, Time: 1.559788
+Epoch: 090, LR: 0.000500, Train Loss: 0.1519228, Val Loss: 0.1813195, Time: 1.473555
+Epoch: 100, LR: 0.000250, Train Loss: 0.1555006, Val Loss: 0.1896224, Time: 1.396034
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 3.6579098, Val Loss: 1.6687988, Time: 0.590077
+Epoch: 010, LR: 0.001000, Train Loss: 0.8300305, Val Loss: 0.8890734, Time: 0.575682
+Epoch: 020, LR: 0.001000, Train Loss: 0.6581749, Val Loss: 0.8278698, Time: 0.589758
+Epoch: 030, LR: 0.001000, Train Loss: 0.6504562, Val Loss: 0.9480018, Time: 0.573277
+Epoch: 040, LR: 0.001000, Train Loss: 0.5863266, Val Loss: 0.6585949, Time: 0.595936
+Epoch: 050, LR: 0.000500, Train Loss: 0.5377887, Val Loss: 0.6244917, Time: 0.602624
+Epoch: 060, LR: 0.000500, Train Loss: 0.5369845, Val Loss: 0.5692819, Time: 0.590337
+Epoch: 070, LR: 0.000500, Train Loss: 0.5070634, Val Loss: 0.6073095, Time: 0.657793
+Epoch: 080, LR: 0.000500, Train Loss: 0.5254560, Val Loss: 0.6261923, Time: 0.583946
+Epoch: 090, LR: 0.000500, Train Loss: 0.4964066, Val Loss: 0.6352911, Time: 0.583726
+Epoch: 100, LR: 0.000250, Train Loss: 0.4750281, Val Loss: 0.5922840, Time: 0.584440
+
+Final Prediction Accuracy: 0.7108433734939759
+
+Average Test Accuracy: 0.7108433842658997
+
