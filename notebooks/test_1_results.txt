@@ -1,0 +1,31 @@
+Running Split 0
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.2529481, Val Loss: 0.1979907, Time: 1.506344
+Epoch: 010, LR: 0.001000, Train Loss: 0.1685098, Val Loss: 0.1577114, Time: 1.341496
+Epoch: 020, LR: 0.001000, Train Loss: 0.1654216, Val Loss: 0.1559767, Time: 1.350312
+Epoch: 030, LR: 0.001000, Train Loss: 0.1530771, Val Loss: 0.1527916, Time: 1.453868
+Epoch: 040, LR: 0.001000, Train Loss: 0.1505185, Val Loss: 0.1575424, Time: 1.329983
+Epoch: 050, LR: 0.000500, Train Loss: 0.1519424, Val Loss: 0.1508584, Time: 1.308094
+Epoch: 060, LR: 0.000500, Train Loss: 0.1777868, Val Loss: 0.1501689, Time: 1.346445
+Epoch: 070, LR: 0.000500, Train Loss: 0.1288320, Val Loss: 0.1468006, Time: 1.317131
+Epoch: 080, LR: 0.000500, Train Loss: 0.1320890, Val Loss: 0.1553423, Time: 1.325024
+Epoch: 090, LR: 0.000500, Train Loss: 0.1477458, Val Loss: 0.1498712, Time: 1.312908
+Epoch: 100, LR: 0.000250, Train Loss: 0.1607289, Val Loss: 0.1507113, Time: 1.359398
+
+STARTING PREDICTION LEARNING
+Epoch: 000, LR: 0.000250, Train Loss: 4.4050760, Val Loss: 2.8816291, Time: 0.694544
+Epoch: 010, LR: 0.000250, Train Loss: 1.4590088, Val Loss: 1.1440689, Time: 0.774662
+Epoch: 020, LR: 0.000250, Train Loss: 1.1435742, Val Loss: 1.3421284, Time: 0.778919
+Epoch: 030, LR: 0.000250, Train Loss: 0.9546593, Val Loss: 0.7683444, Time: 0.698959
+Epoch: 040, LR: 0.000250, Train Loss: 0.8259126, Val Loss: 0.7530297, Time: 0.713013
+Epoch: 050, LR: 0.000125, Train Loss: 0.7005961, Val Loss: 0.7043519, Time: 0.807399
+Epoch: 060, LR: 0.000125, Train Loss: 0.7711974, Val Loss: 0.6803306, Time: 0.749500
+Epoch: 070, LR: 0.000125, Train Loss: 0.6920251, Val Loss: 0.6804209, Time: 0.833610
+Epoch: 080, LR: 0.000125, Train Loss: 0.7299525, Val Loss: 0.7201916, Time: 0.750103
+Epoch: 090, LR: 0.000125, Train Loss: 0.6803553, Val Loss: 0.7010349, Time: 0.673987
+Epoch: 100, LR: 0.000063, Train Loss: 0.6208380, Val Loss: 0.6755014, Time: 0.672774
+Running Split 1
+STARTING CONTRASTIVE LEARNING
+Epoch: 000, LR: 0.001000, Train Loss: 0.2147652, Val Loss: 0.1648831, Time: 1.684891
+Epoch: 010, LR: 0.001000, Train Loss: 0.1478980, Val Loss: 0.1285825, Time: 1.352760
+Epoch: 020, LR: 0.001000, Train Loss: 0.1644552, Val Loss: 0.1433287, Time: 1.388150
