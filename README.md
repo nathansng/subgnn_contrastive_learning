@@ -37,3 +37,5 @@ This project also includes functions to train both the contrastive learning and 
 To run the code, run `python run.py`. The program will create a SubGNN Contrastive model using the parameters from the config file and evaluate the model. The results are both printed and saved to a text file for future reference. 
 
 The tunable parameters of the model and training module can be edited in the `config.json` file in the config directory. 
+
+The docker image [n3ng/subgraph_gnn](https://hub.docker.com/repository/docker/n3ng/subgraph_gnn/general) contains all the needed dependencies for this model. 
