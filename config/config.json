@@ -1,0 +1,20 @@
+{
+    "dataset": "IMDB-BINARY", 
+    "model_config": {
+        "num_reps": 32, 
+        "hidden_units": 64
+    }, 
+    "train_config": {
+        "batch_size": 32,
+        "epochs": 101, 
+        "p1": 0.1, 
+        "p2": 0.2, 
+        "p": 0.0,
+        "dropout": 0.1, 
+        "lr": 0.001, 
+        "seed": 0, 
+        "m": 10, 
+        "filename": "results/test_results.txt"
+    }, 
+    "n_splits": 5
+}

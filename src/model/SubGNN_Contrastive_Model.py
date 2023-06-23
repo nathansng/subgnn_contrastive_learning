@@ -23,7 +23,7 @@ SubGNN & Contrastive Loss model
 """
 
 class SubGNN_Contrastive(nn.Module):
-    def __init__(self, num_features, num_reps, num_classes, hidden_units, use_aux_loss=True):
+    def __init__(self, num_features, num_reps, num_classes, hidden_units, device, use_aux_loss=True):
         super(SubGNN_Contrastive, self).__init__()
 
         # Set starting parameters for model 

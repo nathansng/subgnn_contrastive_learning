@@ -18,6 +18,8 @@ from torch_geometric.nn import GINConv, GINEConv, global_add_pool
 
 from pytorch_metric_learning import losses
 
+from .train import train_contrastive, valid_contrastive, train_prediction, valid_prediction, test_prediction
+
 """
 Automates training process of SubGNN & Contrastive Learning model 
 """
